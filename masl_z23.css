@@ -1,0 +1,33 @@
+/* 1 */
+#pogrubienie_maslii{
+    font-size: 32px;
+    color: rgb(132, 94, 111) ;
+}
+/* 2 */
+#pochylony_maslii{
+    font-size: 36pt ;
+    color:rgb(232,194,111) ;
+}
+/* 3 */
+#index_gorny_maslii{
+    font-size: 1.1cm;
+    color: rgb(152, 194, 31) ;
+}
+/* 4 */
+#index_dolny_maslii{
+   font-size: 1.2cm;
+   color: rgb(52,244,231) ;
+}
+/* 5 */
+#mono_maslii{
+    font-size: 42px;
+    color: rgb(24,224,111);
+}
+/* 6 */
+#powiekszenie_maslii{
+    color: rgb(82,64,161);
+}
+/* 7 */
+#pomniejszenie_maslii{
+    color: rgb(182,164,61) ;
+}
