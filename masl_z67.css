@@ -1,0 +1,33 @@
+#pierwszy ,#drugi , #trzeci {
+    font-size:21pt;
+    color:gold;
+}
+/* #drugi{
+    color:gold;
+    font-size:21pt;
+} */
+#pierwszy::first-letter{
+    font-size:121pt;
+    color:orange;
+}
+#drugi::first-letter{
+    font-size:121pt;
+    color:lightgreen;
+}
+h1{
+    color:blue;
+    font-size:32pt;
+}
+h1::first-letter{
+    font-size:121pt;
+    color:grey;
+}
+#trzeci::first-letter{
+    font-size:121pt;
+    color:red;
+}
+#trzeci::first-line{
+    font-size:10.5 pt;
+    color:red;
+}
+
