@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maslii Z65_kod_html</title>
+</head>
+<body>
+    <h1>HTML</h1>
+    <textarea>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK href="masl_z65.css" rel="stylesheet" type="text/CSS"> 
+    <title>Maslii z65_html</title>
+</head>
+<body bgcolor="silver">
+    <div id="pierwszy_maslii">
+<p>Pierwszy akapit/pierwszy DIV--> Maslii <br>
+            nazwa ID akapitu id="pierwszy_maslii"</p>
+        <p>Drugi akapit/pierwszy DIV <br>
+            pierwszy akapit --> p:first-child{font-size:7mm;font-styl:italic;} <br>
+            bo numer parzysty w dzienniku <br>
+            pozostałe akapity --> p{font-size:10pt;} bo numer parzysty <br>
+            szerokość bloku = 700+13*4=752pt <br>
+            pierwszy DIV--> kolor jasno zielony</p>
+        <p>trzeci akapit/pierwszy DIV <br>
+            pierwszy DIV--> obramowanie czarny DIV <br>
+            pierwszy DIV--> obramowanie grubość 3px, ciągłe (solid) <br>
+            pierwszy DIV--> r1=7mm+6(Maksym)=13mm </p>
+    </div>
+    <div id="drugi_maslii">
+        <p>Pierwszy akapit/drugi DIV--> Maksym <br>
+            nazwa ID akapitu id="drugi_maslii"</p>
+        <p>Drugi akapit/drugi DIV <br>
+            drugi DIV--> kolor jasno niebieski</p>
+        <p>trzeci akapit/drugi DIV <br>
+            drugi DIV--> obramowanie  granatowy DIV <br>
+            drugi DIV--> obramowanie grubość 5px, ciągłe (solid) <br>
+            drugi DIV--> r2=7mm+6(Maslii)=13mm</p>
+    </div>
+    <div id="trzeci_maslii">
+        <p>Pierwszy akapit/trzeci DIV--> klasa 1P nazwa ID akapitu id="trzeci_maslii"</p>
+        <p>Drugi akapit/trzeci DIV <br>
+            pierwszy DIV--> kolor różowy</p>
+        <p>trzeci akapit/trzeci DIV(solid) <br>
+            trzeci DIV--> obramowanie fioletowy DIV <br>
+            trzeci DIV--> obramowanie grubość 7px, ciągłe (solid) <br>
+            trzeci DIV--> r3=7mm+11(listopad)=18mm</p>
+
+    </div>
+</body>
+</html>
+    </textarea>
+    <h1>CSS</h1>
+    <textarea>
+        #pierwszy_maslii{
+    width: 752pt;
+    margin: 0 auto;
+    background-color: lightgreen;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+}
+
+#drugi_maslii{
+    width:952pt;
+    margin: 0 auto;
+    background-color: lightblue;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 5px;
+    
+}
+
+#trzeci_maslii{
+width:1152pt;
+background-color: pink;
+border:18px;
+border-color: purple;
+border-style: solid;
+border-width: 7px;
+
+}
+
+p{
+    font-size: 11pt ; 
+}
+p:first-child{
+    font-size:7mm;
+    font-style:italic;
+}
+/*Maslii Z65_CSS */
+    </textarea>
+</body>
+</html>
+<!-- Maslii Z65_kod_html -->
